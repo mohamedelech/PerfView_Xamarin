@@ -65,10 +65,7 @@ namespace Perf_View_Xamarin
                 {
                     Date = dateTime
                 });
-
-                await Navigation.PushAsync(new listAgenda());
             }
         }
-
     }
 }

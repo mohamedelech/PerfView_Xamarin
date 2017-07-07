@@ -6,11 +6,10 @@
     <MasterDetailPage.Master>
         <ContentPage Title="Menu" Padding="0,0,0,0" BackgroundColor="Transparent">
             <StackLayout VerticalOptions="FillAndExpand">
-                <Button Text="Camera"/>
-                <Button Text="Agenda" Clicked="AgendaPage"/>
                 <Button Text="Saisie Performance" Clicked="AddPerfPage"/>
+                <Button Text="Agenda" Clicked="AgendaPage"/>
+                <Button Text="Camera"/>
                 <Button Text="Boussole" Clicked="CompassPage"/>
-                <Button Text="Réalité augmentée"/>
                 <Button Text="Compteur" Clicked="AccelerometrePage"/>
             </StackLayout>
         </ContentPage>
